@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout de Colunas com Float</title>
+    <style>
+        .container {
+            width: 100%;
+            overflow: hidden;
+            margin: 10px;
+        }
+
+        .left-column {
+            float: inline-start;
+            width: 30%;
+            background-color: #f0f0f0;
+        }
+
+        .right-column {
+            float: inline-end;
+            width: 70%;
+            background-color: #e0e0e0;
+            height: 135px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="left-column">
+            <h2>Coluna Esquerda</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nostrum facere expedita hic quidem dolor non quas eos culpa neque fugiat vel, autem dicta repellendus quibusdam nobis? Quo, odit consectetur.</p>
+        </div>
+        <div class="right-column">
+            <h2>Coluna Direita</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni doloremque adipisci quod perspiciatis voluptates assumenda quibusdam harum atque, cumque ullam dolores qui fugit? Perspiciatis laboriosam odit, accusantium iste cumque aliquid?</p>
+        </div>
+    </div>
+
+</body>
+</html>
+
